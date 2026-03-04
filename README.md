@@ -1,70 +1,218 @@
-# Getting Started with Create React App
+RetainrFlow
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Automated, relationship-safe collections system for marketing agencies.
 
-## Available Scripts
+RetainrFlow is a done-for-you and SaaS-enabled collections solution designed specifically for marketing agencies that struggle with late retainer payments.
 
-In the project directory, you can run:
+We help agencies stabilize cash flow by automating invoice follow-ups without damaging client relationships.
 
-### `npm start`
+🚀 Overview
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Marketing agencies frequently deal with:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Late retainers
 
-### `npm test`
+Net-30 turning into Net-60
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Manual reminder emails
 
-### `npm run build`
+Awkward payment conversations
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Inconsistent follow-ups
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Cash flow unpredictability
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+RetainrFlow solves this by implementing an automated, tone-controlled collections workflow that operates in the background.
 
-### `npm run eject`
+The goal:
+Reduce overdue invoices and improve cash flow within 30 days.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+🎯 Target Audience
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Marketing agencies
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Creative agencies
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Digital service firms
 
-## Learn More
+Agencies with recurring retainers
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Revenue range: $500k–$5M annually
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+🧩 Core Value Proposition
 
-### Code Splitting
+We act as your automated collections manager.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Instead of building a generic reminder tool, RetainerOps:
 
-### Analyzing the Bundle Size
+Audits overdue invoices
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+Implements structured follow-up sequences
 
-### Making a Progressive Web App
+Escalates tone gradually and professionally
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+Protects client relationships
 
-### Advanced Configuration
+Reports weekly on recovered cash
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+⚙️ How It Works
 
-### Deployment
+1. Connect Accounting System
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+Currently supports:
 
-### `npm run build` fails to minify
+QuickBooks
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Xero
+
+Secure OAuth-based connection (read-only access for invoice data).
+
+2. Identify Overdue Invoices
+
+The system:
+
+Pulls invoice data
+
+Identifies overdue retainers
+
+Flags repeat late payers
+
+Categorizes by risk level
+
+3. Smart Follow-Up Engine
+
+Automated email sequences:
+
+Polite initial reminder
+
+Second reminder with gentle urgency
+
+Escalation reminder
+
+Final notice (customizable)
+
+All emails:
+
+Are tone-controlled
+
+Can be reviewed/approved
+
+Are customizable to match agency voice
+
+4. Weekly Reporting
+
+Agencies receive:
+
+Total overdue amount
+
+Amount recovered
+
+Clients requiring attention
+
+Payment behavior insights
+
+🏗 Initial Product Model
+
+Phase 1: Done-for-you implementation
+Phase 2: Hybrid SaaS + white-glove onboarding
+Phase 3: Full SaaS self-serve
+
+Early versions may include manual workflows behind the scenes to validate performance before full automation.
+
+🔐 Security & Data Handling
+
+Read-only access to invoice data
+
+No storage of banking credentials
+
+Encrypted API connections
+
+Data used solely for collections automation
+
+Future roadmap includes:
+
+SOC 2 compliance
+
+Role-based access control
+
+Audit logs
+
+💰 Revenue Model
+
+Setup Fee (implementation & configuration)
+
+Monthly subscription
+
+Optional performance-based incentive (future model)
+
+📈 Roadmap
+Phase 1 (0–3 Months)
+
+Launch with marketing agencies
+
+Validate collections workflows
+
+Refine messaging
+
+Acquire first 10 paying clients
+
+Phase 2 (3–6 Months)
+
+Build internal dashboard
+
+Automate follow-up engine fully
+
+Add late-payment prediction scoring
+
+Phase 3 (6–12 Months)
+
+Expand beyond agencies
+
+Add forecasting module
+
+Develop risk scoring system
+
+Consider performance-based pricing
+
+🧠 Long-Term Vision
+
+RetainerOps evolves from collections automation into:
+
+Payment behavior intelligence
+
+Client risk profiling
+
+Cash flow forecasting
+
+Revenue operations tooling for agencies
+
+The long-term goal is to become the financial operations backbone for service businesses.
+
+🛠 Tech Stack (Planned)
+
+Frontend: Web-based dashboard
+
+Backend: API-driven architecture
+
+Integrations: QuickBooks, Xero
+
+Email engine: Automated sequencing with tone variation
+
+AI layer: Message optimization + risk scoring
+
+📌 Status
+
+Currently in early validation stage.
+Focused on:
+
+Direct founder outreach
+
+Pilot implementations
+
+Iterating on real agency feedback
+
+📞 Contact
+
+For early access, pilot participation, or partnership inquiries:
+
+joona.lusa@gmail.com
