@@ -13,8 +13,8 @@ const NavBar = () => (
                 <a href="#home" class="nav-link">Home</a>
                 <a href="#whyItWorks" class="nav-link">Why It Works</a>
                 <a href="#socialProof" class="nav-link">Social Proof</a>
-                <a href="#contactForm" class="nav-link">Contact</a>
-                <a href="www.google.com" class="cta-button">Login</a>
+                <a href="#bookingSection" class="nav-link">Contact</a>
+                {/* <a href="www.google.com" class="cta-button">Login</a> */}
             </div>
         </div>
     </nav>

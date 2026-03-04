@@ -3,7 +3,8 @@ import NavBar from './components/Navbar';
 import Hero from './components/Hero';
 import SocialProof from './components/SocialProof';
 import WhyItWorks from './components/WhyItWorks';
-import ContactUsForm from './components/ContactUsForm';
+// import ContactUsForm from './components/ContactUsForm';
+import BookingSection from './components/BookingSection';
 import ProblemSection from './Features/ProblemSection';
 import { PrimaryButton } from './components/Button';
 
@@ -31,7 +32,7 @@ function App() {
 
       <WhyItWorks />
       <SocialProof />
-      <ContactUsForm />
+      <BookingSection />
       <Footer />
     </div>
   );
