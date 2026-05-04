@@ -2,7 +2,7 @@ RetainrOps
 
 Automated, relationship-safe collections system for marketing agencies.
 
-RetainrFlow is a done-for-you and SaaS-enabled collections solution designed specifically for marketing agencies that struggle with late retainer payments.
+RetainrOps is a done-for-you and SaaS-enabled collections solution designed specifically for marketing agencies that struggle with late retainer payments.
 
 We help agencies stabilize cash flow by automating invoice follow-ups without damaging client relationships.
 
@@ -22,7 +22,7 @@ Inconsistent follow-ups
 
 Cash flow unpredictability
 
-RetainrFlow solves this by implementing an automated, tone-controlled collections workflow that operates in the background.
+retainrOps solves this by implementing an automated, tone-controlled collections workflow that operates in the background.
 
 The goal:
 Reduce overdue invoices and improve cash flow within 30 days.
