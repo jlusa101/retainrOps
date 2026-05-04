@@ -1,4 +1,4 @@
-RetainrFlow
+RetainrOps
 
 Automated, relationship-safe collections system for marketing agencies.
 
