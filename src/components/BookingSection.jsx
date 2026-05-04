@@ -13,10 +13,11 @@ const BookingSection = () => {
         </div>
 
         <div className="card" style={{ maxWidth: "900px", margin: "0 auto" }}>
-          <InlineWidget 
-            url="https://calendly.com/joona-lusa"
-            styles={{ height: "650px" }}
-          />
+          <iframe
+            src="https://calendly.com/joona-lusa"
+            width="100%"
+            height="650px"
+            frameBorder="0" />
         </div>
 
       </div>
